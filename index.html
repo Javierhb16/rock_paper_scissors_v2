@@ -7,7 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Rock, Paper, Scissors</h1>
+    <p>Choose your move and beat the computer!</p>
+
+    <!-- User choices -->
+    <div class="choices">
+        <!-- Add icons for each choice -->
+        <button class="choice box" id="rock">Rock</button>
+        <button class="choice box" id="paper">Paper</button>
+        <button class="choice box" id="scissors">Scissors</button>
+    </div>
+
+    <!-- Result -> When someone has five points, make a button appear to reset the scoreboard and play a new game -->
+    <div class="result box">Choose Rock, Paper, or Scissors to start the game</div>
+
+    <!-- Scoreboard -->
+     <div class="scoreboard box">
+        <div class="score-left">
+            <div class="player">Player</div>
+            <div class="playerScore">0</div>
+        </div>
+        
+        <div class="score-right">
+            <div class="computer">Computer</div>
+            <div class="computerScore">0</div>
+        </div>
+     </div>
+
+    <p>First to 5 wins!</p>
 </body>
 <!-- <script src="script.js"></script> -->
 </html>

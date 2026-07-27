@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=swap');
+
+body {
+    background: #12151D;
+    background-color: linear-gradient(180deg, rgba(18, 21, 29, 1) 0%, rgba(27, 29, 41, 1) 100%);
+    font-family: "Geomini";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #DBE0E8;
+    font-size: 80px;
+    text-align: center;
+    margin: 8px;
+}
+
+p {
+    color: #93A6C3;
+    margin: 8px;
+}
+
+button {
+    font-family: "Geomini";
+    font-weight: 600;
+    color: #DBE0E8;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box {
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+ }
+
+.choices {
+    display: flex;
+    gap: 24px;
+    margin: 24px;
+}
+
+.choice {
+    padding: 64px;
+    width: 300px;
+    font-size: 32px;
+}
+
+#rock {
+    background-color: #1B222D;
+    border: 1px solid #3E4F6B;
+}
+
+#paper {
+    background-color: #1A212E;
+    border: 1px solid #3E4F6B;
+}
+
+#scissors {
+    background-color: #20212E;
+    border: 1px solid #50456B;
+}
+
+.result, .scoreboard {
+    color: #93A6C3;
+    background-color: #171B25;
+    margin: 24px;
+    font-size: 32px;
+    width: 948px;
+    height: 128px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard {
+    gap: 100px;
+}
+
+.score-left, .score-right {
+    text-align: center;
+}
+
+.score-left {
+    color: #5B97E9;
+}
+
+.score-right {
+    color: #6AD0AA;
+}
